@@ -1,0 +1,41 @@
+{
+    "name": "lemonweb/sassc-binary",
+    "type": "library",
+    "description": "A wrapper package to compile the sassc binary from hcatlin's source",
+    "keywords": ["CSS", "SASS", "SCSS"],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "hcatlin/libsass",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/hcatlin/libsass",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "hcatlin/sassc",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/hcatlin/sassc",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "require-dev": {
+        "hcatlin/libsass": "dev-master#a561f1257ed1ea141dd210237594a8f83ba7ed1a",
+        "hcatlin/sassc": "dev-master#2bffe127c036344531df49331e2c88ec8dab44b1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
