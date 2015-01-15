@@ -7,35 +7,35 @@
         {
             "type": "package",
             "package": {
-                "name": "hcatlin/libsass",
-                "version": "master",
+                "name": "sass/libsass",
+                "version": "3.1.0",
                 "source": {
-                    "url": "https://github.com/hcatlin/libsass",
+                    "url": "https://github.com/sass/libsass",
                     "type": "git",
-                    "reference": "master"
+                    "reference": "3.1.0"
                 }
             }
         },
         {
             "type": "package",
             "package": {
-                "name": "hcatlin/sassc",
-                "version": "master",
+                "name": "sass/sassc",
+                "version": "3.1.0",
                 "source": {
-                    "url": "https://github.com/hcatlin/sassc",
+                    "url": "https://github.com/sass/sassc",
                     "type": "git",
-                    "reference": "master"
+                    "reference": "3.1.0"
                 }
             }
         }
     ],
     "require-dev": {
-        "hcatlin/libsass": "dev-master#a561f1257ed1ea141dd210237594a8f83ba7ed1a",
-        "hcatlin/sassc": "dev-master#2bffe127c036344531df49331e2c88ec8dab44b1"
+        "sass/libsass": "3.1.0",
+        "sass/sassc": "3.1.0"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "3.1-dev"
         }
     }
 }
