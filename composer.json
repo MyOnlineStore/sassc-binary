@@ -33,6 +33,12 @@
         "sass/libsass": "3.1.0",
         "sass/sassc": "3.1.0"
     },
+    "bin": [
+        "sassc"
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "3.1-dev"
