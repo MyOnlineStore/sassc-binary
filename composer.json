@@ -8,11 +8,11 @@
             "type": "package",
             "package": {
                 "name": "sass/libsass",
-                "version": "3.1.0",
+                "version": "3.3.4",
                 "source": {
                     "url": "https://github.com/sass/libsass",
                     "type": "git",
-                    "reference": "3.1.0"
+                    "reference": "3.3.4"
                 }
             }
         },
@@ -20,28 +20,22 @@
             "type": "package",
             "package": {
                 "name": "sass/sassc",
-                "version": "3.1.0",
+                "version": "3.3.4",
                 "source": {
                     "url": "https://github.com/sass/sassc",
                     "type": "git",
-                    "reference": "3.1.0"
+                    "reference": "3.3.4"
                 }
             }
         }
     ],
     "require-dev": {
-        "sass/libsass": "3.1.0",
-        "sass/sassc": "3.1.0"
-    },
-    "bin": [
-        "sassc"
-    ],
-    "config": {
-        "bin-dir": "bin"
+        "sass/libsass": "3.3.4",
+        "sass/sassc": "3.3.4"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "3.1-dev"
+            "dev-master": "3.3-dev"
         }
     }
 }
